@@ -1,5 +1,7 @@
 package home.practice.java.datatypes;
 
+import java.util.Arrays;
+
 /**
  *  Chapter: Java Data Type
  */
@@ -11,10 +13,17 @@ public class DataTypeDemo {
         System.out.println((float)z);
         int amount = 9_99;
         String name="";
-
+        double someDouble = 1_234.0;
         int Integer = 10;
+        Boolean wrapper = new Boolean("True");
+        System.out.println(wrapper);
+
+       String[] some = {"Usman","Saleem"};
+       System.out.println(Arrays.toString(some));
+
+
         //name = name + "Chair";
-        System.out.println(name);
+        //System.out.println(name);
 
 
     }
