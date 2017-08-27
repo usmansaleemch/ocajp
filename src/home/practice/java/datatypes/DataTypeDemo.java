@@ -27,7 +27,7 @@ public class DataTypeDemo {
        int someCase = 1;
 
        switch (someCase){
-           case Integer: 
+           case Integer:
        }
 
         //name = name + "Chair";
